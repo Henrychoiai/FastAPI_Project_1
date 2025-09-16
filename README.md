@@ -6,7 +6,7 @@ ChatGPT API를 활용한 대화형 수학 학습 플랫폼입니다. AI가 수�
 
 ## ✨ 주요 기능
 
-- **단계별 수학 튜터링**: AI가 2-3문장씩 설명하고 이해도 확인 후 다음 단계 진행
+- **단계별 수학 튜터링**: AI가 1-2문장씩 설명하고 이해도 확인 후 다음 단계 진행
 - **2025년 수능 기출문제**: 1-30번 문제 데이터베이스 조회
 - **이미지 문제 인식**: EasyOCR을 통한 수학 문제 이미지 업로드 및 텍스트 추출
 - **사용자 인증**: 회원가입/로그인 및 개별 대화 기록 저장
@@ -24,17 +24,18 @@ ChatGPT API를 활용한 대화형 수학 학습 플랫폼입니다. AI가 수�
 
 ## 📱 스크린샷
 
-### 메인 화면 - 수능 기출문제 조회
-![메인 화면](./screenshots/main-screen.png)
+### 로그인/회원가입 화면
+![로그인 화면](./images/home.png)
 
-### AI 단계별 풀이 안내
-![AI 풀이 화면](./screenshots/ai-tutoring.png)
+### 메인 화면 - 수능 기출문제 조회
+![메인 화면](./images/college_exam.png)
+
+### 수학문제 촬영하여 질문하기
+![AI 풀이 화면](./images/photograph.png)
 
 ### 대화형 수학 학습
-![대화형 학습](./screenshots/interactive-learning.png)
+![대화형 학습](./images/typing.png)
 
-### 로그인/회원가입 화면
-![로그인 화면](./screenshots/login-signup.png)
 
 ## 🚀 설치 및 실행
 
@@ -83,7 +84,7 @@ CHATGPT-MATH-TUTOR/
 │   ├── index.html                # 메인 HTML
 │   ├── script.js                 # JavaScript 로직
 │   └── style.css                 # CSS 스타일링
-└── screenshots/                  # 스크린샷 이미지
+└── images/                       # 스크린샷 이미지
 ```
 
 ## 🔧 API 엔드포인트
