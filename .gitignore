@@ -1,9 +1,205 @@
-__pycache__/
-*.pyc
-*.sqlite3
-*.db
+# AI 수학 튜터 프로젝트 .gitignore
+# 11) 민감한 정보 노출 되지 않도록 처리
+
+# 환경 변수 파일 (민감한 정보 포함)
 .env
-.venv/
+.env.local
+.env.production
+.env.staging
+backend/.env
+
+# 데이터베이스 파일
+*.db
+*.sqlite
+*.sqlite3
+backend/chatgpt_math_tutor.db
+backend/*.db
+
+# 로그 파일
+*.log
+backend/app.log
+backend/access.log
+backend/error.log
+
+# Python 관련
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# pdm
+.pdm.toml
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.venv
+env/
 venv/
-node_modules/
+ENV/
+env.bak/
+venv.bak/
+backend/.venv/
+backend/env/
+backend/venv/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# PyCharm
+.idea/
+
+# VS Code
 .vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# 백업 파일
+*.bak
+*.backup
+*.tmp
+
+# 업로드된 파일들
+uploads/
+media/
+static/media/
+
+# SSL 인증서
+*.pem
+*.key
+*.crt
+
+# 개발용 임시 파일
+temp/
+tmp/
+test_files/
+debug/
+
+# Node.js (프론트엔드 개발 도구 사용시)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 배포 관련
+dist/
+build/
