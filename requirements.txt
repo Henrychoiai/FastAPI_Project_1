@@ -1,0 +1,41 @@
+# AI 수학 튜터 백엔드 필요 패키지들
+# backend/requirements.txt
+
+# 핵심 웹 프레임워크
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# HTTP 클라이언트 (ChatGPT API 호출용)
+httpx==0.25.2
+
+# 데이터베이스 관련
+# 6) SQLite와 SQLAlchemy 사용
+sqlalchemy==2.0.23
+alembic==1.12.1
+
+# 인증 관련
+# 9) JWT 토큰 처리
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.6
+
+# 데이터 검증
+pydantic==2.5.0
+
+# 환경변수 처리
+python-dotenv==1.0.0
+
+# 로깅 (선택사항)
+structlog==23.2.0
+
+# 테스트 관련
+# 11) 테스트코드 작성
+pytest==7.4.3
+pytest-asyncio==0.21.1
+requests==2.31.0
+
+# 개발 도구 (선택사항)
+black==23.11.0
+flake8==6.1.0
+easyocr==1.7.0
+Pillow==10.1.0
