@@ -22,7 +22,7 @@ ChatGPT API를 활용한 대화형 수학 학습 플랫폼입니다. AI가 수�
 **Frontend**
 - HTML5 + CSS3 + JavaScript
 
-## 📱 스크린샷
+## 📱 와이어프레임
 
 ### 로그인/회원가입 화면
 ![로그인 화면](./images/home.png)
